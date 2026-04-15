@@ -23,16 +23,23 @@ const Dashboard = () => {
           </button>
         </div>
       </div>
-      <div className="h-30 w-60 bg-pink-500 text-white flex items-center justify-center rounded-lg text-2xl font-bold">
-        Order
+      <div className="h-30 w-55 bg-green-100 text-black flex flex-col items-center justify-center rounded-xl">
+        <span className="text-sm">Total Revenue</span>
+        <span className="text-xl font-bold">0</span>
       </div>
 
-      <div className="h-30 w-60 bg-blue-500 text-white flex items-center justify-center rounded-lg text-2xl font-bold">
-        Product
+      <div className="h-30 w-55 bg-pink-100 text-black flex flex-col items-center justify-center rounded-xl">
+        <span className="text-sm">Total Orders</span>
+        <span className="text-xl font-bold">0</span>
       </div>
 
-      <div className="h-30 w-60 bg-blue-500 text-white flex items-center justify-center rounded-lg text-2xl font-bold">
-        Customer
+      <div className="h-30 w-55 bg-yellow-100 text-black flex flex-col items-center justify-center rounded-xl">
+        <span className="text-sm">Total Customers</span>
+        <span className="text-xl font-bold">0</span>
+      </div>
+      <div className="h-30 w-55 bg-red-100 text-black flex flex-col items-center justify-center rounded-xl">
+        <span className="text-sm">Total Products</span>
+        <span className="text-xl font-bold">0</span>
       </div>
     </div>
   );

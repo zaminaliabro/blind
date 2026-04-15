@@ -11,7 +11,7 @@ export default function Sidebar() {
             href="/dashborad"
             className="block p-2 hover:bg-gray-200 rounded text-black"
           >
-            Dashboard
+            Dashborad
           </Link>
         </li>
 
@@ -29,7 +29,7 @@ export default function Sidebar() {
             href="/product"
             className="block p-2 hover:bg-gray-200 rounded text-black"
           >
-            Products
+            Product
           </Link>
         </li>
 
@@ -38,7 +38,16 @@ export default function Sidebar() {
             href="/customer"
             className="block p-2 hover:bg-gray-200 rounded text-black"
           >
-            Customers
+            Customer
+          </Link>
+        </li>
+
+        <li>
+          <Link
+            href="/login"
+            className="block p-2 hover:bg-gray-200 rounded text-black"
+          >
+            Login
           </Link>
         </li>
       </ul>
