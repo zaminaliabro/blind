@@ -2,7 +2,7 @@ import Link from "next/link";
 
 export default function Sidebar() {
   return (
-    <div className="w-64 h-screen bg-gray-100 p-4">
+    <div className="w-64 h-screen bg-blue-100 p-4 border-r border-gray-300">
       <h1 className="text-xl font-bold mb-6 text-blue-500">Dashboard</h1>
 
       <ul className="space-y-2">
@@ -35,7 +35,7 @@ export default function Sidebar() {
 
         <li>
           <Link
-            href="/customer"
+            href="/customers"
             className="block p-2 hover:bg-gray-200 rounded text-black"
           >
             Customers

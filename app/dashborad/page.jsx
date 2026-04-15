@@ -1,13 +1,21 @@
 import React from "react";
 
-const Dashborad = () => {
+const Dashboard = () => {
   return (
-    <div className="p-6">
-      <h1 className="text-2xl font-bold text-blue-600">dashborad page</h1>
+    <div className="flex flex-wrap gap-6 mt-6">
+      <div className="h-40 w-60 bg-blue-500 text-white flex items-center justify-center rounded-lg text-2xl font-bold">
+        Order
+      </div>
 
-      <p className="mt-4 text-gray-600">Welcome to the Customers page 👥</p>
+      <div className="h-40 w-60 bg-blue-500 text-white flex items-center justify-center rounded-lg text-2xl font-bold">
+        Product
+      </div>
+
+      <div className="h-40 w-60 bg-blue-500 text-white flex items-center justify-center rounded-lg text-2xl font-bold">
+        Customer
+      </div>
     </div>
   );
 };
 
-export default Dashborad;
+export default Dashboard;
