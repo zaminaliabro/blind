@@ -35,7 +35,7 @@ export default function Sidebar() {
 
         <li>
           <Link
-            href="/customers"
+            href="/customer"
             className="block p-2 hover:bg-gray-200 rounded text-black"
           >
             Customers
